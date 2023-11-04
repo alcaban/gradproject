@@ -73,8 +73,8 @@
             .enter()
             .append("path")
             .style("fill","none")  
-            .style("stroke","cyan")    // line color
-            .style("stroke-width","2px") // line width
+            .style("stroke","green")    // line color
+            .style("stroke-width","4px") // line width
             .style("opacity","1");    // line opacity
 
         
@@ -109,8 +109,8 @@
         var marker=g.append("image")
             .attr("x", -33) 
             .attr("y", -32)
-            .attr("width", 20) //change size of PNG (width)
-            .attr("height", 20) //change size of PNG (height)
+            .attr("width", 40) //change size of PNG (width)
+            .attr("height", 40) //change size of PNG (height)
             .attr("xlink:href", "car.png") // Draw the traveling marker; make sure to change the name to whatever you changed your PNG file as. 
             .attr("preserveAspectRatio", true)
             .attr("id","marker") 
