@@ -25,11 +25,10 @@
     <script type="text/javascript">
     var map = L.map('map').setView([41.9541624,-87.6717587], 14);
 
-    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.{ext}', {
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: 'Animated path made with <a href="https://d3js.org/">D3</a>, Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://mapbox.com">Mapbox</a>',
           maxZoom: 18,
           minZoom: 7,
-          ext: 'png'
         }).addTo(map);
 
     // Create the container for the animated path and associated elements
